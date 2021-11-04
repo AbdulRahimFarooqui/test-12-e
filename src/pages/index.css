@@ -1,0 +1,48 @@
+.container-top {
+    margin: 0 auto;
+    box-shadow: 0 0 20px #8f7070;
+    text-align: center;
+    background-color: #21212b;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.lollies{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;  
+}
+.title{
+    font-family: Yellowtail,cursive;
+    font-size: 1.5em;
+}
+.main-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container > * {
+    margin: 10px 0;
+    padding: 8px 10px;
+}
+
+.form-container > textarea {
+    height: 250px;
+}
+.add-new{
+    margin-top: 1em;
+    background-color: grey;
+    font-size: 1em;
+    color: #fa73d9;
+    padding: 1em 2em;
+    border-radius: 4em;
+    cursor: pointer;
+    transition: all .3s;
+}
